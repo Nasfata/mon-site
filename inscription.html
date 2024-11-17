@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Inscription</title>
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="inscription.html">S'inscrire</a></li>
+            <li><a href="connexion.html">Se Connecter</a></li>
+            <li><a href="contact.html">Contactez-Nous</a></li>
+            <li><a href="etudiant.html">Etudiants</a></li>
+        </ul>
+    </nav>
+</head>
+<body>
+
+    <h1>Inscription </h1>
+    
+    <form action="#" method="post">
+        
+        <!-- Champ de texte pour le nom complet -->
+        <label for="nom">Nom complet :</label>
+        <input type="text" id="nom" name="nom" required><br><br>
+        
+        <!-- Champ de saisie pour l'adresse e-mail -->
+        <label for="email">E-mail :</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <!-- Champ de saisie pour le mot de passe -->
+        <label for="password">Mot de passe :</label>
+        <input type="password" id="password" name="password" required><br><br>
+        
+        <!-- Sélecteur de date pour la date de naissance -->
+        <label for="dob">Date de naissance :</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+        
+        <!-- Options radio pour le genre -->
+        <label>Genre :</label><br>
+        <input type="radio" id="masculin" name="genre" value="masculin" required>
+        <label for="masculin">Masculin</label><br>
+        <input type="radio" id="feminin" name="genre" value="feminin" required>
+        <label for="feminin">Féminin</label><br><br>
+        
+    
+        <!-- Liste déroulante pour le programme d'études -->
+        <label for="programme">Departement :</label>
+        <select id="programme" name="programme" required>
+            <option value="informatique">Informatique</option>
+            <option value="mathematiques">Mathématiques</option>
+            <option value="histoire">Histoire</option>
+            <option value="biologie">Biologie</option>
+            <option value="litterature">Littérature</option>
+        </select><br><br>
+        
+        <!-- Case à cocher pour accepter les termes et conditions -->
+        <input type="checkbox" id="terms" name="terms" required>
+        <label for="terms">J'accepte les termes et conditions</label><br><br>
+        <p>Déjà un compte ? <a href="connexion.html">Connectez-vous</a></p>
+        
+        <!-- Bouton pour soumettre le formulaire -->
+        <button type="submit">S'inscrire</button>
+        
+    </form>
+
+</body>
+</html>

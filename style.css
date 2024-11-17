@@ -1,0 +1,184 @@
+.acceil{
+    background-image: url('R.jfif');
+}
+.para{
+   
+    text-align: center;
+    margin-top: 200px;
+    color: #93a6b3;
+    
+}
+body {
+    background-color: #f0f0f0;
+    font-family: 'Verdana', sans-serif;
+    color: #333;
+    margin: 20px;
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+
+}
+
+p {
+    line-height: 1.6;
+    text-align: justify;
+}
+
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+nav {
+    background-color:  #2980b9;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+section {
+    padding: 20px;
+}
+
+
+
+
+
+
+form {
+    width: 400px;
+    margin: auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+
+}
+
+label {  
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2980b9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3498db;
+}
+
+
+
+
+
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+   
+}
+h1{
+    text-align: center;
+}
+
+/* Style global du tableau */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Supprime l'espacement entre les cellules */
+    margin: 20px 0;
+}
+
+/* Style pour les bordures */
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+/* Espacement intérieur pour les cellules */
+th, td {
+    padding: 12px;
+    text-align: center; /* Centre le texte dans chaque cellule */
+}
+
+/* Style pour les en-têtes */
+th {
+    background-color: black; /* Fond bleu */
+    color: white; /* Texte en blanc */
+}
+
+/* Alterne la couleur des lignes pour une meilleure lisibilité */
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Fond gris clair */
+}
+
+tr:hover {
+    background-color: #ddd; /* Fond gris plus foncé au survol */
+}
+
+
+
